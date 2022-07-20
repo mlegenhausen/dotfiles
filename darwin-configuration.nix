@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 {
   environment.variables = { LANG = "en_US.UTF-8"; };
@@ -137,7 +137,7 @@
   };
 
   home-manager.users.mlegenhausen = { pkgs, ... }: {
-    home.packages = with pkgs; [ gnupg jdk11 lazygit pinentry_mac ];
+    home.packages = with pkgs; [ gnupg jdk11 jq lazygit pinentry_mac ];
     home.stateVersion = "22.05";
 
     # Let Home Manager install and manage itself.
@@ -178,13 +178,48 @@
 
     programs.zsh = {
       enable = true;
-      enableAutosuggestions = true;
-      enableSyntaxHighlighting = true;
-      oh-my-zsh = {
+      zplug = {
         enable = true;
-        plugins = [ "git" "iterm2" "macos" "sudo" "yarn" ];
-        theme = "agnoster";
+        plugins = [
+          {
+            name = "plugins/common-aliases";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          {
+            name = "plugins/git";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          {
+            name = "plugins/iterm2";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          {
+            name = "plugins/macos";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          {
+            name = "plugins/sudo";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          {
+            name = "plugins/yarn";
+            tags = [ "from:oh-my-zsh" ];
+          }
+          { name = "zsh-users/zsh-autosuggestions"; }
+          { name = "zsh-users/zsh-completions"; }
+          { name = "zsh-users/zsh-history-substring-search"; }
+          { name = "zsh-users/zsh-syntax-highlighting"; }
+          {
+            name = "romkatv/powerlevel10k";
+            tags = [ "as:theme" "depth:1" ];
+          }
+        ];
       };
+      plugins = [{
+        name = "powerlevel10k-config";
+        src = lib.cleanSource ./p10k-config;
+        file = "p10k.zsh";
+      }];
       shellAliases = { code = "code-insiders"; };
     };
   };

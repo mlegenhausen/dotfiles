@@ -17,7 +17,7 @@
     };
   };
 
-  outputs = { self, nur, ... }@inputs:
+  outputs = { self, ... }@inputs:
     let
       sharedDarwinConfiguration = { config, pkgs, ... }: {
         nix = {
