@@ -137,7 +137,7 @@
   };
 
   home-manager.users.mlegenhausen = { pkgs, ... }: {
-    home.packages = with pkgs; [ gnupg jdk11 jq lazygit pinentry_mac ];
+    home.packages = with pkgs; [ gnupg jdk11 jq lazygit pinentry_mac wget ];
     home.stateVersion = "22.05";
 
     # Let Home Manager install and manage itself.
