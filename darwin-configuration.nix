@@ -7,7 +7,7 @@
   environment.systemPath = [ "/opt/homebrew/bin" ];
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  environment.systemPackages = with pkgs; [ git vim ];
+  environment.systemPackages = with pkgs; [ git vim wget ];
 
   fonts.fontDir.enable = true;
   fonts.fonts = with pkgs;
@@ -149,7 +149,6 @@
       nmap
       ocrmypdf
       pinentry_mac
-      wget
       youtube-dl
     ];
     home.stateVersion = "22.05";
