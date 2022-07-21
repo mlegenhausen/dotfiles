@@ -138,7 +138,7 @@
   };
 
   home-manager.users.mlegenhausen = { pkgs, ... }: {
-    home.packages = with pkgs; [ gnupg jdk11 jq lazygit pinentry_mac wget ];
+    home.packages = with pkgs; [ docker-machine ffmpeg gnupg imagemagick jdk11 jq lazygit nmap ocrmypdf pinentry_mac wget youtube-dl ];
     home.stateVersion = "22.05";
 
     # Let Home Manager install and manage itself.
