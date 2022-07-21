@@ -99,6 +99,7 @@
       "google-chrome-canary"
       "iterm2"
       "keepingyouawake"
+      "licecap"
       "logitech-camera-settings"
       "logitech-firmwareupdatetool"
       "logitech-options"

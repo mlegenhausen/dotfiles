@@ -51,13 +51,26 @@
     in
     {
       darwinConfigurations = {
-        MBP-von-Malte = inputs.darwin.lib.darwinSystem {
+        Maltes-MacBook-Pro = inputs.darwin.lib.darwinSystem {
           system = "aarch64-darwin";
           inherit inputs;
 
           modules = [
             inputs.homemanager.darwinModules.home-manager
             sharedDarwinConfiguration
+            ./machines/macbook-pro
+            ./darwin-configuration.nix
+          ];
+        };
+
+        Air-von-Malte = inputs.darwin.lib.darwinSystem {
+          system = "aarch64-darwin";
+          inherit inputs;
+
+          modules = [
+            inputs.homemanager.darwinModules.home-manager
+            sharedDarwinConfiguration
+            ./machines/macbook-air
             ./darwin-configuration.nix
           ];
         };
