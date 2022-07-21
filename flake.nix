@@ -63,7 +63,7 @@
           ];
         };
 
-        Air-von-Malte = inputs.darwin.lib.darwinSystem {
+        Maltes-MacBook-Air = inputs.darwin.lib.darwinSystem {
           system = "aarch64-darwin";
           inherit inputs;
 
