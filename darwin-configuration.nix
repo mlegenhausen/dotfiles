@@ -149,6 +149,7 @@
       nmap
       ocrmypdf
       pinentry_mac
+      speedtest-cli
       youtube-dl
     ];
     home.stateVersion = "22.05";
