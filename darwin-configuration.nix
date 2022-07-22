@@ -147,9 +147,11 @@
       jq
       lazygit
       nmap
+      nodejs
       ocrmypdf
       pinentry_mac
       speedtest-cli
+      yarn
       youtube-dl
     ];
     home.stateVersion = "22.05";
