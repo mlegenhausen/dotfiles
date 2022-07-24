@@ -146,6 +146,7 @@
       jdk11
       jq
       lazygit
+      neofetch
       nmap
       nodejs
       ocrmypdf
