@@ -195,11 +195,15 @@
 
     programs.zsh = {
       enable = true;
+      shellAliases = {
+        # Fix for permission denied error when using `..`.
+        ".." = "cd ..";
+      };
       zplug = {
         enable = true;
         plugins = [
           {
-            name = "plugins/common-aliases";
+            name = "lib/directories";
             tags = [ "from:oh-my-zsh" ];
           }
           {
