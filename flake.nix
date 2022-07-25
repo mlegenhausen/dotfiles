@@ -2,9 +2,7 @@
   description = "MacOS configurations";
 
   inputs = {
-    nixpkgs = {
-      url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    };
+    nixpkgs = { url = "github:nixos/nixpkgs/nixpkgs-unstable"; };
 
     darwin = {
       url = "github:lnl7/nix-darwin/master";
@@ -27,9 +25,7 @@
             experimental-features = nix-command flakes
           '';
 
-          binaryCaches = [
-            "https://cache.nixos.org"
-          ];
+          binaryCaches = [ "https://cache.nixos.org" ];
 
           binaryCachePublicKeys = [
             "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
@@ -48,8 +44,7 @@
           };
         };
       };
-    in
-    {
+    in {
       darwinConfigurations = {
         Maltes-MacBook-Pro = inputs.darwin.lib.darwinSystem {
           system = "aarch64-darwin";
@@ -60,6 +55,7 @@
             sharedDarwinConfiguration
             ./machines/macbook-pro
             ./darwin-configuration.nix
+            ./users/mlegenhausen
           ];
         };
 
@@ -72,6 +68,7 @@
             sharedDarwinConfiguration
             ./machines/macbook-air
             ./darwin-configuration.nix
+            ./users/mlegenhausen
           ];
         };
       };
