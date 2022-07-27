@@ -1,8 +1,5 @@
-{ pkgs, lib, config, options, ... }:
+{ pkgs, lib, options, ... }:
 
 {
-  imports = [
-    ./apps.nix
-    ./macos.nix
-  ];
+  imports = [ ./apps.nix ./fonts.nix ./macos.nix ./nix.nix ./zsh.nix ];
 }

@@ -54,7 +54,6 @@
             inputs.homemanager.darwinModules.home-manager
             sharedDarwinConfiguration
             ./machines/macbook-pro
-            ./darwin-configuration.nix
             ./users/mlegenhausen
           ];
         };
@@ -67,7 +66,6 @@
             inputs.homemanager.darwinModules.home-manager
             sharedDarwinConfiguration
             ./machines/macbook-air
-            ./darwin-configuration.nix
             ./users/mlegenhausen
           ];
         };

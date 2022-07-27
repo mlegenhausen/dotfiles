@@ -1,4 +1,4 @@
-{ pkgs, lib, config, options, ... }:
+{ pkgs, lib, options, ... }:
 
 {
   system.defaults = {

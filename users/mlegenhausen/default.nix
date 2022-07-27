@@ -5,9 +5,7 @@ let
   fullname = "Malte Legenhausen";
 
 in {
-  imports = [
-    ../modules
-  ];
+  imports = [ ../modules ];
 
   fonts.fonts = with pkgs;
     [ (nerdfonts.override { fonts = [ "FiraCode" "Meslo" ]; }) ];
@@ -15,28 +13,34 @@ in {
   users.users.mlegenhausen = {
     name = "${username}";
     home = "/Users/${username}";
+    shell = pkgs.zsh;
   };
 
   home-manager.users."${username}" = { pkgs, ... }: {
-    home.packages = with pkgs; [
-      docker-machine
-      ffmpeg
-      gnupg
-      imagemagick
-      jdk11
-      jq
-      lazygit
-      neofetch
-      nmap
-      nodejs
-      nodePackages.typescript
-      ocrmypdf
-      pinentry_mac
-      speedtest-cli
-      yarn
-      youtube-dl
-    ];
-    home.stateVersion = "22.05";
+    home = {
+      language = { base = "en_US.UTF-8"; };
+
+      packages = with pkgs; [
+        docker-machine
+        ffmpeg
+        gnupg
+        imagemagick
+        jdk11
+        jq
+        lazygit
+        neofetch
+        nmap
+        nodejs
+        nodePackages.typescript
+        ocrmypdf
+        pinentry_mac
+        speedtest-cli
+        yarn
+        youtube-dl
+      ];
+
+      stateVersion = "22.05";
+    };
 
     programs = {
       home-manager.enable = true;
