@@ -11,8 +11,6 @@
   services.nix-daemon.enable = true;
   # nix.package = pkgs.nix;
 
-  programs.gnupg.agent.enable = true;
-
   programs.zsh.enable = true; # default shell on catalina
   # programs.fish.enable = true;
 }
