@@ -34,6 +34,14 @@ nix \
 ./result/sw/bin/darwin-rebuild switch --flake github:mlegenhausen/dotfiles#Maltes-MacBook-Air
 ```
 
+### nix zsh as Default Shell
+
+When starting a terminal the default shell will be the system shell. You need to switch manually to the nix installed zsh package by running the following command.
+
+```
+chsh -s /run/current-system/sw/bin/zsh
+```
+
 ## Development
 
 ### Build

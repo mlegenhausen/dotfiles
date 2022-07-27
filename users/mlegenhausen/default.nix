@@ -5,6 +5,13 @@ let
   fullname = "Malte Legenhausen";
 
 in {
+  imports = [
+    ../modules
+  ];
+
+  fonts.fonts = with pkgs;
+    [ (nerdfonts.override { fonts = [ "FiraCode" "Meslo" ]; }) ];
+
   users.users.mlegenhausen = {
     name = "${username}";
     home = "/Users/${username}";
