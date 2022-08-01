@@ -47,6 +47,7 @@
     masApps = {
       "Amazon Prime Video" = 545519333;
       Bitwarden = 1352778147;
+      "Home Assistent" = 1099568401;
       "Next Meeting" = 1017470484;
       # "RollerCoaster Tycoon Classic" = 1113736426;
       "Unsplash Wallpapers" = 1284863847;
