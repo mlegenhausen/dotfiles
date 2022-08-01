@@ -22,6 +22,7 @@ in {
 
       packages = with pkgs; [
         docker-machine
+        exa
         ffmpeg
         gnupg
         imagemagick

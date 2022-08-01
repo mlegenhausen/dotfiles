@@ -53,5 +53,10 @@
     file = "p10k.zsh";
   }];
 
-  shellAliases = { code = "code-insiders"; };
+  shellAliases = {
+    code = "code-insiders";
+    l = "exa --git -la";
+    ll = "exa --git -l";
+    ls = "exa";
+  };
 }
