@@ -3,7 +3,7 @@
 {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  environment.systemPackages = with pkgs; [ git vim wget ];
+  environment.systemPackages = with pkgs; [ git rsync vim wget ];
 
   # Add brew command line tools to the PATH.
   environment.systemPath = [ "/opt/homebrew/bin" ];
