@@ -33,7 +33,7 @@
       "moneymoney"
       "onyx"
       "rectangle"
-      "shadow-beta"
+      "shadow"
       "sidequest"
       "signal"
       "slack"
