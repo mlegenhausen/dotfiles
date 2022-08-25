@@ -2,9 +2,7 @@
 
 {
   system.defaults = {
-    alf = {
-      globalstate = 1;
-    };
+    alf = { globalstate = 1; };
 
     dock = {
       autohide = true;
