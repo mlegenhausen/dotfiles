@@ -17,6 +17,7 @@
       "bartender"
       "blackhole-2ch"
       "browserosaurus"
+      "digikam"
       "dropbox"
       "firefox-developer-edition"
       "fliqlo"
@@ -45,15 +46,15 @@
       "zoom"
     ];
 
-    masApps = {
-      "Amazon Prime Video" = 545519333;
-      Bitwarden = 1352778147;
-      "Home Assistent" = 1099568401;
-      "Next Meeting" = 1017470484;
-      # "RollerCoaster Tycoon Classic" = 1113736426;
-      "Unsplash Wallpapers" = 1284863847;
-      "WireGuard" = 1451685025;
-    };
+    # masApps = {
+    #   "Amazon Prime Video" = 545519333;
+    #   Bitwarden = 1352778147;
+    #   "Home Assistent" = 1099568401;
+    #   "Next Meeting" = 1017470484;
+    #   # "RollerCoaster Tycoon Classic" = 1113736426;
+    #   "Unsplash Wallpapers" = 1284863847;
+    #   "WireGuard" = 1451685025;
+    # };
 
     taps = [ "homebrew/cask" "homebrew/cask-drivers" "homebrew/cask-versions" ];
   };
