@@ -58,5 +58,6 @@
     l = "exa --git -la";
     ll = "exa --git -l";
     ls = "exa";
+    lg = "lazygit";
   };
 }
