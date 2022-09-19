@@ -28,7 +28,6 @@ in {
         imagemagick
         jdk11
         jq
-        lazygit
         neofetch
         nmap
         nodejs
@@ -73,6 +72,16 @@ in {
       };
 
       gpg = { enable = true; };
+
+      lazygit = {
+        enable = true;
+
+        settings = {
+          gui = { showIcons = true; };
+          os = { openCommand = "code-insiders -rg {{filename}}"; };
+          promptToReturnFromSubprocess = false;
+        };
+      };
 
       zsh = import ./programs/zsh.nix { inherit pkgs lib; };
     };
