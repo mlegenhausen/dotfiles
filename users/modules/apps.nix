@@ -10,8 +10,12 @@
 
   homebrew = {
     enable = true;
-    autoUpdate = true;
-    cleanup = "uninstall";
+
+    onActivation = {
+      autoUpdate = true;
+      cleanup = "uninstall";
+      upgrade = true;
+    };
 
     casks = [
       "bartender"

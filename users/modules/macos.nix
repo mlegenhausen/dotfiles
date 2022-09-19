@@ -6,7 +6,7 @@
 
     dock = {
       autohide = true;
-      autohide-delay = "0.2";
+      autohide-delay = 0.2;
       mineffect = "scale";
       show-recents = false;
       tilesize = 64;
