@@ -80,6 +80,7 @@ in {
           gui = { showIcons = true; };
           os = { openCommand = "code-insiders -rg {{filename}}"; };
           promptToReturnFromSubprocess = false;
+          refresher = { refreshInterval = 5; };
         };
       };
 
