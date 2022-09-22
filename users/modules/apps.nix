@@ -22,6 +22,7 @@
       "blackhole-2ch"
       "browserosaurus"
       "digikam"
+      "discord"
       "dropbox"
       "firefox-developer-edition"
       "fliqlo"
