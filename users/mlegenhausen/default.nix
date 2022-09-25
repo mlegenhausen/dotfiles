@@ -33,6 +33,7 @@ in {
         nodejs
         nodePackages.typescript
         ocrmypdf
+        parallel
         pinentry_mac
         speedtest-cli
         yarn
