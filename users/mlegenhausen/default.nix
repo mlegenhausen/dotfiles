@@ -41,6 +41,10 @@ in {
       ];
 
       stateVersion = "22.05";
+      sessionVariables = {
+        NODE_ENV = "development";
+      };
+
     };
 
     programs = {
