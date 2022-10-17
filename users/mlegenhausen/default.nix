@@ -40,11 +40,11 @@ in {
         youtube-dl
       ];
 
-      stateVersion = "22.05";
       sessionVariables = {
         NODE_ENV = "development";
       };
 
+      stateVersion = "22.11";
     };
 
     programs = {
