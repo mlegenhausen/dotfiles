@@ -31,6 +31,7 @@ in {
         neofetch
         nmap
         nodejs
+        nodePackages.npm-check-updates
         nodePackages.typescript
         ocrmypdf
         parallel
