@@ -37,7 +37,7 @@
       "microsoft-auto-update"
       "microsoft-office"
       "moneymoney"
-      "onyx"
+      # "onyx"
       "rectangle"
       "shadow"
       "sidequest"
