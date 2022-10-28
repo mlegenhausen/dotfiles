@@ -37,6 +37,7 @@
       "microsoft-auto-update"
       "microsoft-office"
       "moneymoney"
+      "nvidia-geforce-now"
       # "onyx"
       "rectangle"
       "shadow"
