@@ -40,7 +40,6 @@
       "nvidia-geforce-now"
       # "onyx"
       "rectangle"
-      "shadow"
       "sidequest"
       "signal"
       "slack"
