@@ -44,6 +44,7 @@
       "signal"
       "slack"
       "stats"
+      "virtualbox-beta"
       "visual-studio-code"
       "visual-studio-code-insiders"
       "whatsapp"
