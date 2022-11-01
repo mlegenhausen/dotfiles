@@ -38,7 +38,7 @@
       "microsoft-office"
       "moneymoney"
       "nvidia-geforce-now"
-      # "onyx"
+      "onyx"
       "rectangle"
       "sidequest"
       "signal"
