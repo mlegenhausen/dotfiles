@@ -38,6 +38,7 @@ in {
         pinentry_mac
         speedtest-cli
         yarn
+        vegeta
         youtube-dl
       ];
 
