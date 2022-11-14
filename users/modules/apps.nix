@@ -23,6 +23,7 @@
       "browserosaurus"
       "digikam"
       "discord"
+      "docker"
       "dropbox"
       "firefox-developer-edition"
       "fliqlo"
