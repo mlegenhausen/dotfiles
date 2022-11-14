@@ -19,6 +19,7 @@
 
     casks = [
       "bartender"
+      "betterdisplay"
       "blackhole-2ch"
       "browserosaurus"
       "digikam"
