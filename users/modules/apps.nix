@@ -27,6 +27,7 @@
       "dropbox"
       "firefox-developer-edition"
       "fliqlo"
+      "google-chrome"
       "google-chrome-canary"
       "iterm2"
       "keepingyouawake"
