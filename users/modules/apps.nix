@@ -33,6 +33,7 @@
       "iterm2"
       "keepingyouawake"
       "licecap"
+      "logi-options-plus"
       "logitech-camera-settings"
       "logitech-firmwareupdatetool"
       "lulu"
