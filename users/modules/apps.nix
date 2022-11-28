@@ -35,7 +35,6 @@
       "licecap"
       "logitech-camera-settings"
       "logitech-firmwareupdatetool"
-      "logitech-options"
       "lulu"
       "microsoft-auto-update"
       "microsoft-office"
