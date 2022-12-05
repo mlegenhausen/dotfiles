@@ -22,6 +22,7 @@
       "betterdisplay"
       "blackhole-2ch"
       "browserosaurus"
+      "cider"
       "digikam"
       "discord"
       "docker"
