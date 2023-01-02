@@ -18,6 +18,7 @@
     };
 
     casks = [
+      "appcleaner"
       "bartender"
       "betterdisplay"
       "blackhole-2ch"
