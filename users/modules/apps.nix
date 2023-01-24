@@ -24,6 +24,7 @@
       "blackhole-2ch"
       "browserosaurus"
       "cider"
+      "coconutbattery"
       "digikam"
       "discord"
       "docker"
