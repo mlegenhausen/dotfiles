@@ -59,5 +59,7 @@
     ll = "exa --git -l";
     ls = "exa";
     lg = "lazygit";
+    pbapply = "pbpaste | git apply";
+    pbdiff = "git diff | pbcopy";
   };
 }
