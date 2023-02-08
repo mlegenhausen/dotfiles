@@ -42,6 +42,7 @@
       "lulu"
       "microsoft-auto-update"
       "microsoft-office"
+      "minecraft"
       "moneymoney"
       "nvidia-geforce-now"
       "onyx"
