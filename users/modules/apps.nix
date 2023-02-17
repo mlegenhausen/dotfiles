@@ -18,6 +18,7 @@
     };
 
     casks = [
+      "altserver"
       "appcleaner"
       "bartender"
       "betterdisplay"
