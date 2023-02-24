@@ -26,6 +26,7 @@
       "browserosaurus"
       "cider"
       "coconutbattery"
+      "deepl"
       "digikam"
       "discord"
       "docker"
