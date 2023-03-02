@@ -60,7 +60,7 @@ in {
         userName = "${fullname}";
         userEmail = "${username}@mailbox.org";
 
-        ignores = [ ".DS_Store" ".direnv" ];
+        ignores = [ ".DS_Store" ".direnv" ".envrc" ];
 
         extraConfig = {
           core = { editor = "code-insiders --wait"; };
