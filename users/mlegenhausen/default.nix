@@ -25,6 +25,7 @@ in {
         exa
         ffmpeg
         gnupg
+        gron
         imagemagick
         jdk11
         jq
