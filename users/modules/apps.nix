@@ -47,6 +47,7 @@
       "minecraft"
       "moneymoney"
       "nvidia-geforce-now"
+      "obsidian"
       "onyx"
       "rectangle"
       "sidequest"
