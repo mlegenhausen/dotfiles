@@ -55,6 +55,7 @@
       "signal"
       "slack"
       "stats"
+      "tunnelbear"
       "virtualbox-beta"
       "visual-studio-code"
       "visual-studio-code-insiders"
