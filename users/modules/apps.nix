@@ -49,6 +49,7 @@
       "nvidia-geforce-now"
       "obsidian"
       "onyx"
+      "openra"
       "rectangle"
       "sidequest"
       "signal"
