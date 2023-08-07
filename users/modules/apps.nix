@@ -64,6 +64,7 @@
       "virtualbox-beta"
       "visual-studio-code"
       "visual-studio-code-insiders"
+      "warp"
       "whatsapp"
       "vlc"
       "zoom"
