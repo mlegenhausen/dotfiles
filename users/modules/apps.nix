@@ -60,6 +60,7 @@
       "signal"
       "slack"
       "stats"
+      "steam"
       "tunnelbear"
       "virtualbox-beta"
       "visual-studio-code"
