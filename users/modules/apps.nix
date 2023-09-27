@@ -53,7 +53,7 @@
       "nvidia-geforce-now"
       "mullvadvpn"
       "obsidian"
-      "onyx"
+      # "onyx"
       "porting-kit"
       "rectangle"
       "sidequest"
