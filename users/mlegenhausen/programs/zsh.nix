@@ -55,9 +55,9 @@
 
   shellAliases = {
     code = "code-insiders";
-    l = "exa --git -la";
-    ll = "exa --git -l";
-    ls = "exa";
+    l = "eza --git -la";
+    ll = "eza --git -l";
+    ls = "eza";
     lg = "lazygit";
     pbapply = "pbpaste | git apply";
     pbdiff = "git diff | pbcopy";

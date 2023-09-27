@@ -22,7 +22,7 @@ in {
 
       packages = with pkgs; [
         docker-machine
-        exa
+        eza
         ffmpeg
         gnupg
         gron
