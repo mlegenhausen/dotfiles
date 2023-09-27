@@ -60,6 +60,7 @@
       "signal"
       "slack"
       "stats"
+      "steam"
       "visual-studio-code"
       "visual-studio-code-insiders"
       "warp"
