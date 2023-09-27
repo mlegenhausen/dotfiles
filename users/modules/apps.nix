@@ -79,6 +79,6 @@
     #   "WireGuard" = 1451685025;
     # };
 
-    taps = [ "homebrew/cask" "homebrew/cask-drivers" "homebrew/cask-versions" "schappim/ocr" ];
+    taps = [ "homebrew/cask-versions" "schappim/ocr" ];
   };
 }
