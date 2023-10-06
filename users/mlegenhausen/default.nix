@@ -22,6 +22,7 @@ in {
 
       packages = with pkgs; [
         docker-machine
+        difftastic
         eza
         ffmpeg
         gnupg
@@ -49,7 +50,7 @@ in {
         NODE_ENV = "development";
       };
 
-      stateVersion = "22.11";
+      stateVersion = "23.05";
     };
 
     programs = {
@@ -64,10 +65,22 @@ in {
 
         ignores = [ ".DS_Store" ".direnv" ".envrc" ];
 
+        delta = {
+          enable = true;
+          options = {
+            syntax-theme = "Visual Studio Dark+";
+            side-by-side = true;
+          };
+        };
+
         extraConfig = {
+          commit = { verbose = true; };
           core = { editor = "code-insiders --wait"; };
           github = { user = "${username}"; };
-          push = { default = "simple"; };
+          push = {
+            autoSetupRemote = true;
+            default = "simple";
+          };
         };
 
         includes = [{
@@ -87,8 +100,33 @@ in {
         enable = true;
 
         settings = {
-          gui = { showIcons = true; };
-          os = { openCommand = "code-insiders -rg {{filename}}"; };
+          git = {
+            # Override default to add `--oneline`. Default here:
+            # https://github.com/jesseduffield/lazygit/blob/c390c9d58edc18083ed7f1a672b03b7c4d982c12/docs/Config.md
+            branchLogCmd = "git log --graph --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline {{branchName}} --";
+
+            paging = {
+              # https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md#delta
+              colorArg = "always";
+              pager = "delta --dark --paging=never";
+            };
+          };
+          gui = { 
+            showCommandLog = false;
+            sidePanelWidth = 0.2;
+            showFileTree = false;
+
+            theme = {
+              # Workaround for https://github.com/jesseduffield/lazygit/issues/750
+              selectedLineBgColor = [ "reverse" ];
+              selectedRangeBgColor = [ "reverse" ];
+            };
+
+            # The default is "flexible". We don't ever want "horizontal" layout
+            # because it conflicts with side-by-side diffs.
+            mainPanelSplitMode = "vertical";
+          };
+          os = { open = "code-insiders -rg {{filename}}"; };
           promptToReturnFromSubprocess = false;
           refresher = { refreshInterval = 5; };
         };
