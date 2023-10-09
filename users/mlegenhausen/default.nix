@@ -38,6 +38,7 @@ in {
         nodePackages.typescript
         ocrmypdf
         parallel
+        pdftk
         pinentry_mac
         speedtest-cli
         terraform
