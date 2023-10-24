@@ -30,7 +30,6 @@ in {
         imagemagick
         jdk11
         jq
-        heroku
         neofetch
         nmap
         nodejs
