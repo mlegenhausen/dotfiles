@@ -51,7 +51,6 @@
       "minecraft"
       "moneymoney"
       "nvidia-geforce-now"
-      "mullvadvpn"
       "obsidian"
       # "onyx"
       "porting-kit"
