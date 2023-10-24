@@ -40,7 +40,6 @@ in {
         pdftk
         pinentry_mac
         speedtest-cli
-        terraform
         yarn
         vegeta
         youtube-dl
