@@ -30,6 +30,7 @@ in {
         imagemagick
         jdk11
         jq
+        ncdu
         neofetch
         nmap
         nodejs
