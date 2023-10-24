@@ -113,7 +113,7 @@ in {
           };
           gui = { 
             showCommandLog = false;
-            sidePanelWidth = 0.2;
+            # sidePanelWidth = 0.3;
             showFileTree = false;
 
             theme = {
