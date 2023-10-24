@@ -52,7 +52,7 @@
       "moneymoney"
       "nvidia-geforce-now"
       "obsidian"
-      # "onyx"
+      "onyx"
       "porting-kit"
       "rectangle"
       "sidequest"
