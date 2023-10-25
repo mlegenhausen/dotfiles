@@ -61,5 +61,6 @@
     lg = "lazygit";
     pbapply = "pbpaste | git apply";
     pbdiff = "git diff | pbcopy";
+    yarn = "corepack yarn";
   };
 }
