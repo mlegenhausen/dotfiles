@@ -64,7 +64,7 @@
       "visual-studio-code"
       "visual-studio-code-insiders"
       "warp"
-      "whatsapp"
+      "whatsapp-beta"
       "vlc"
       "zoom"
     ];
