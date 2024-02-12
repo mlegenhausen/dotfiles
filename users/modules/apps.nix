@@ -33,6 +33,7 @@
       "dropbox"
       "firefox-developer-edition"
       "fliqlo"
+      "freetube"
       "google-chrome"
       "google-chrome-canary"
       "iterm2"
