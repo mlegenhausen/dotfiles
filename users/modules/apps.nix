@@ -25,6 +25,7 @@
     casks = [
       "altserver"
       "appcleaner"
+      "balenaetcher"
       "blackhole-2ch"
       "browserosaurus"
       "deepl"
