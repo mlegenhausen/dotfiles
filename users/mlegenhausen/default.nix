@@ -21,7 +21,6 @@ in {
       language = { base = "en_US.UTF-8"; };
 
       packages = with pkgs; [
-        docker-machine
         difftastic
         eza
         ffmpeg
