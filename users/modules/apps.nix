@@ -54,6 +54,7 @@
       "slack"
       "stats"
       "steam"
+      "teamviewer"
       "visual-studio-code"
       "visual-studio-code-insiders"
       "whatsapp-beta"
