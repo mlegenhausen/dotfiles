@@ -43,6 +43,7 @@
       "logi-options-plus"
       "logitech-camera-settings"
       "logitech-firmwareupdatetool"
+      "loom"
       "lulu"
       "microsoft-auto-update"
       "microsoft-office"
