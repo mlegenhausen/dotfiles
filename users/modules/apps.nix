@@ -32,6 +32,7 @@
       "discord"
       "docker"
       "dropbox"
+      "figma"
       "firefox-developer-edition"
       "fliqlo"
       "freetube"
