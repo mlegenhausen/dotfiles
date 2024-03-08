@@ -40,6 +40,7 @@
       "google-chrome-canary"
       "iterm2"
       "keepingyouawake"
+      "libreoffice"
       "licecap"
       "logi-options-plus"
       "logitech-camera-settings"
