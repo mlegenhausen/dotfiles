@@ -97,7 +97,24 @@ in {
       lazygit = {
         enable = true;
 
+        # Build lazygit from latest source whilst we wait for a new release (for
+        # Difftastic + commit co-authors).
+        package = pkgs.lazygit.overrideAttrs (_: {
+          src = pkgs.fetchFromGitHub {
+            owner = "jesseduffield";
+            repo = "lazygit";
+            rev = "ad01745";
+            hash = "sha256-NyTCknxqKFRFIg8b4/f3nYxqw+wEyugvQaZEBdWV/rc=";
+          };
+        });
+
         settings = {
+          customCommands = [{
+            key = "E";
+            context = "global";
+            command = "code {{.SelectedWorktree.Path}}";
+          }];
+
           git = {
             # Override default to add `--oneline`. Default here:
             # https://github.com/jesseduffield/lazygit/blob/c390c9d58edc18083ed7f1a672b03b7c4d982c12/docs/Config.md
