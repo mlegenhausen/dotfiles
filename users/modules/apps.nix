@@ -18,6 +18,7 @@
     };
 
     brews = [
+      "graphite"
       "heroku"
       "ocr"
     ];
@@ -77,6 +78,6 @@
     #   "WireGuard" = 1451685025;
     # };
 
-    taps = [ "heroku/brew" "homebrew/cask-versions" "schappim/ocr" ];
+    taps = [ "heroku/brew" "homebrew/cask-versions" "schappim/ocr" "withgraphite/tap" ];
   };
 }
