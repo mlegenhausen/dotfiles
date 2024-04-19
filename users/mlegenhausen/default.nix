@@ -16,6 +16,8 @@ in {
     shell = pkgs.zsh;
   };
 
+  home-manager.useGlobalPkgs = true;
+
   home-manager.users."${username}" = { pkgs, ... }: {
     home = {
       language = { base = "en_US.UTF-8"; };
