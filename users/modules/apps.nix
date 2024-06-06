@@ -38,7 +38,6 @@
       "fliqlo"
       "freetube"
       "google-chrome"
-      "google-chrome-canary"
       "iterm2"
       "keepingyouawake"
       "libreoffice"
