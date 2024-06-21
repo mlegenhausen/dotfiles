@@ -42,7 +42,6 @@ in {
         parallel
         pdftk
         pinentry_mac
-        saml2aws
         speedtest-cli
         vegeta
         youtube-dl
