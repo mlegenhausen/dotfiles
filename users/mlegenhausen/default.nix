@@ -23,6 +23,7 @@ in {
       language = { base = "en_US.UTF-8"; };
 
       packages = with pkgs; [
+        ast-grep
         difftastic
         eza
         ffmpeg
