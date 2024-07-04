@@ -27,6 +27,7 @@ in {
         difftastic
         eza
         ffmpeg
+        gh
         gnupg
         gron
         imagemagick
