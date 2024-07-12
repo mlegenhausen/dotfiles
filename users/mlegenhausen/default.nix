@@ -7,7 +7,7 @@ let
 in {
   imports = [ ../modules ];
 
-  fonts.fonts = with pkgs;
+  fonts.packages = with pkgs;
     [ (nerdfonts.override { fonts = [ "FiraCode" "Meslo" ]; }) ];
 
   users.users.mlegenhausen = {
@@ -46,7 +46,6 @@ in {
         pinentry_mac
         speedtest-cli
         vegeta
-        youtube-dl
       ];
 
       sessionVariables = {
