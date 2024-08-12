@@ -4,7 +4,6 @@
   imports = [
     ./apps.nix
     ./dnsmasq.nix
-    ./fonts.nix
     ./lorri.nix
     ./macos.nix
     ./nix.nix
