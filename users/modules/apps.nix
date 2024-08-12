@@ -26,10 +26,10 @@
     casks = [
       "altserver"
       "appcleaner"
+      "arc"
       "balenaetcher"
       "blackhole-2ch"
       "browserosaurus"
-      "deepl"
       "discord"
       "docker"
       "dropbox"
