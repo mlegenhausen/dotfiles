@@ -65,7 +65,7 @@ in {
         userName = "${fullname}";
         userEmail = "${username}@mailbox.org";
 
-        ignores = [ ".DS_Store" ".direnv" ".envrc" "TODO.md" ];
+        ignores = [ ".DS_Store" ".direnv" ".env" ".envrc" "TODO.md" ];
 
         delta = {
           enable = true;
