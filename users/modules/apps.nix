@@ -46,8 +46,6 @@
       "logitech-firmwareupdatetool"
       "loom"
       "lulu"
-      "microsoft-auto-update"
-      "microsoft-office"
       "minecraft"
       "moneymoney"
       "nvidia-geforce-now"
