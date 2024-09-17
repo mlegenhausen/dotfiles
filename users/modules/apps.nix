@@ -55,6 +55,7 @@
       "slack"
       "stats"
       "steam"
+      "tiptoi-manager"
       "teamviewer"
       "visual-studio-code"
       "visual-studio-code@insiders"
