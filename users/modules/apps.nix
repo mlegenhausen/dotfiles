@@ -48,7 +48,6 @@
       "lulu"
       "minecraft"
       "moneymoney"
-      "nvidia-geforce-now"
       "onyx"
       "rectangle"
       "sidequest"
