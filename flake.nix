@@ -44,6 +44,8 @@
             allowUnsupportedSystem = true;
           };
         };
+
+        system.stateVersion = 5;
       };
     in {
       darwinConfigurations = {
