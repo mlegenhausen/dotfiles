@@ -24,7 +24,6 @@
     ];
 
     casks = [
-      "altserver"
       "appcleaner"
       "arc"
       "balenaetcher"
