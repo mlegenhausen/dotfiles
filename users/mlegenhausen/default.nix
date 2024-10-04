@@ -24,6 +24,7 @@ in {
 
       packages = with pkgs; [
         ast-grep
+        colima
         difftastic
         eza
         ffmpeg
