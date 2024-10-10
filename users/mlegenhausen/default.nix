@@ -27,6 +27,7 @@ in {
         colima
         difftastic
         eza
+        fastly
         ffmpeg
         gh
         gnupg
