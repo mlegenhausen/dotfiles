@@ -41,7 +41,7 @@
       "keepingyouawake"
       "libreoffice"
       "licecap"
-      "logi-options-plus"
+      "logi-options+"
       "logitech-camera-settings"
       "logitech-firmwareupdatetool"
       "loom"
