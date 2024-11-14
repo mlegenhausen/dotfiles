@@ -25,10 +25,7 @@
             experimental-features = nix-command flakes
           '';
 
-          gc = {
-            automatic = true;
-            options = "--delete-older-than 2w";
-          };
+          gc.automatic = true;
 
           settings = {
             substituters = [ "https://cache.nixos.org" ];
