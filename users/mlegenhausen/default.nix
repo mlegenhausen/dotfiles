@@ -51,7 +51,7 @@ in {
       ];
 
       sessionVariables = {
-        NODE_COMPILE_CACHE = "~/.cache/nodejs-compile-cache";
+        NODE_COMPILE_CACHE = "/Users/mlegenhausen/.cache/nodejs-compile-cache";
         NODE_ENV = "development";
       };
 
