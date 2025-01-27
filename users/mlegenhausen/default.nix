@@ -7,8 +7,10 @@ let
 in {
   imports = [ ../modules ];
 
-  fonts.packages = with pkgs;
-    [ (nerdfonts.override { fonts = [ "FiraCode" "Meslo" ]; }) ];
+  fonts.packages = with pkgs; [ 
+    nerd-fonts.fira-code
+    nerd-fonts.meslo-lg
+  ];
 
   users.users.mlegenhausen = {
     name = "${username}";
@@ -31,6 +33,7 @@ in {
         ffmpeg
         gh
         gnupg
+        gobuster
         gron
         imagemagick
         jdk11
@@ -47,6 +50,7 @@ in {
         pdftk
         pinentry_mac
         speedtest-cli
+        subfinder
         vegeta
       ];
 
