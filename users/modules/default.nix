@@ -6,7 +6,6 @@
     ./dnsmasq.nix
     ./lorri.nix
     ./macos.nix
-    ./nix.nix
     ./zsh.nix
   ];
 }
