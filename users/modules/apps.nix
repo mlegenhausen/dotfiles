@@ -25,7 +25,6 @@
 
     casks = [
       "appcleaner"
-      "arc"
       "balenaetcher"
       "blackhole-2ch"
       "browserosaurus"
