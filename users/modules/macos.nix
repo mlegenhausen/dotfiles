@@ -1,6 +1,8 @@
 { pkgs, lib, options, ... }:
 
 {
+  networking.applicationFirewall.enable = true;
+
   system.defaults = {
     dock = {
       autohide = true;
