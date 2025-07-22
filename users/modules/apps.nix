@@ -31,6 +31,7 @@
       "discord"
       "docker"
       "dropbox"
+      "epic-games"
       "figma"
       "firefox@developer-edition"
       "fliqlo"

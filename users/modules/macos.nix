@@ -2,8 +2,6 @@
 
 {
   system.defaults = {
-    alf = { globalstate = 1; };
-
     dock = {
       autohide = true;
       autohide-delay = 0.2;

@@ -44,7 +44,6 @@ in {
         nodejs
         nodePackages.npm-check-updates
         nodePackages.typescript
-        ocrmypdf
         okta-aws-cli
         parallel
         pdftk

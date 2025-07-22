@@ -44,6 +44,8 @@
 
         system.stateVersion = 5;
 
+        system.primaryUser = "mlegenhausen";
+
         # Fix for the following error:
         # The default Nix build user group ID was changed from 30000 to 350.
         # You are currently managing Nix build users with nix-darwin, but your
