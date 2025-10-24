@@ -18,24 +18,19 @@
     };
 
     brews = [
-      "graphite"
-      "heroku"
       "ocr"
     ];
 
     casks = [
       "appcleaner"
-      "balenaetcher"
-      "blackhole-2ch"
       "browserosaurus"
       "discord"
-      "docker"
+      "docker-desktop"
       "dropbox"
       "epic-games"
       "figma"
       "firefox@developer-edition"
       "fliqlo"
-      "freetube"
       "fujitsu-scansnap-home"
       "google-chrome"
       "iterm2"
@@ -44,16 +39,12 @@
       "licecap"
       "logi-options+"
       "logitech-camera-settings"
-      "logitech-firmwareupdatetool"
-      "loom"
       "lulu"
       "minecraft"
       "moneymoney"
       "onyx"
       "rectangle"
-      "sidequest"
       "signal"
-      "slack"
       "stats"
       "steam"
       "tiptoi-manager"
@@ -66,16 +57,17 @@
       "zoom"
     ];
 
-    # masApps = {
+    masApps = {
     #   "Amazon Prime Video" = 545519333;
-    #   Bitwarden = 1352778147;
+      Bitwarden = 1352778147;
     #   "Home Assistent" = 1099568401;
-    #   "Next Meeting" = 1017470484;
+      "Next Meeting" = 1017470484;
+      "Okta Verify" = 490179405;
     #   # "RollerCoaster Tycoon Classic" = 1113736426;
     #   "Unsplash Wallpapers" = 1284863847;
-    #   "WireGuard" = 1451685025;
-    # };
+      "WireGuard" = 1451685025;
+    };
 
-    taps = [ "heroku/brew" "homebrew/cask-versions" "schappim/ocr" "withgraphite/tap" ];
+    taps = [ "heroku/brew" "schappim/ocr" "withgraphite/tap" ];
   };
 }

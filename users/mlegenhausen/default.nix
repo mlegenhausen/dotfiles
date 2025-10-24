@@ -66,30 +66,18 @@ in {
 
       direnv = import ./programs/direnv.nix { inherit pkgs; };
 
+      delta = {
+        enable = true;
+        options = {
+          syntax-theme = "Visual Studio Dark+";
+          side-by-side = true;
+        };
+      };
+
       git = {
         enable = true;
-        userName = "${fullname}";
-        userEmail = "${username}@mailbox.org";
 
-        ignores = [ ".DS_Store" ".direnv" ".env" ".envrc" "TODO.md" ];
-
-        delta = {
-          enable = true;
-          options = {
-            syntax-theme = "Visual Studio Dark+";
-            side-by-side = true;
-          };
-        };
-
-        extraConfig = {
-          commit = { verbose = true; };
-          core = { editor = "code-insiders --wait"; };
-          github = { user = "${username}"; };
-          push = {
-            autoSetupRemote = true;
-            default = "simple";
-          };
-        };
+        ignores = [ ".DS_Store" ".direnv" ".env" ".envrc" ".jj/" "TODO.md" ];
 
         includes = [{
           condition = "gitdir:~/dev/unsplash/";
@@ -97,12 +85,45 @@ in {
         }];
 
         signing = {
-          key = "A32B9917F1ED507BC8FA920E5C41B60BF1F2E8C0";
+          key = "C1E4995F261B172B8D1187AC7A3417BEC0A8D0CD";
           signByDefault = true;
+        };
+
+        settings = {
+          commit = { verbose = true; };
+          core = { editor = "code-insiders --wait"; };
+          github = { user = "${username}"; };
+          push = {
+            autoSetupRemote = true;
+            default = "simple";
+          };
+          user = {
+            email = "${username}@mailbox.org";
+            name = "${fullname}";
+          };
         };
       };
 
       gpg = { enable = true; };
+
+      jujutsu = {
+        enable = true;
+
+        settings = {
+          user = {
+            email = "${username}@mailbox.org";
+            name = "${fullname}";
+          };
+          ui = {
+            editor = "code-insiders --wait";
+            color = "auto";
+          };
+        };
+      };
+
+      jjui = {
+        enable = true;
+      };
 
       lazygit = {
         enable = true;
