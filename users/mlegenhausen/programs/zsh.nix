@@ -3,11 +3,6 @@
 {
   enable = true;
 
-  shellAliases = {
-    # Fix for permission denied error when using `..`.
-    ".." = "cd ..";
-  };
-
   zplug = {
     enable = true;
 
@@ -54,11 +49,14 @@
   }];
 
   shellAliases = {
+    # Fix for permission denied error when using `..`.
+    ".." = "cd ..";
     code = "code-insiders";
     l = "eza --git -la";
     ll = "eza --git -l";
     ls = "eza";
     lg = "lazygit";
+    oac = "okta-aws-cli --open-browser";
     pbapply = "pbpaste | git apply";
     pbdiff = "git diff | pbcopy";
     yarn = "corepack yarn";

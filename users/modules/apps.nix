@@ -18,12 +18,15 @@
     };
 
     brews = [
-      "ocr"
+      "imagemagick"
     ];
 
     casks = [
       "appcleaner"
       "browserosaurus"
+      "chatgpt"
+      "claude"
+      "codex"
       "discord"
       "docker-desktop"
       "dropbox"
@@ -42,6 +45,8 @@
       "lulu"
       "minecraft"
       "moneymoney"
+      "monologue"
+      "ngrok"
       "onyx"
       "rectangle"
       "signal"
@@ -54,6 +59,7 @@
       "visual-studio-code@insiders"
       "whatsapp@beta"
       "vlc"
+      "zed"
       "zoom"
     ];
 
@@ -64,7 +70,6 @@
       "Next Meeting" = 1017470484;
       "Okta Verify" = 490179405;
     #   # "RollerCoaster Tycoon Classic" = 1113736426;
-    #   "Unsplash Wallpapers" = 1284863847;
       "WireGuard" = 1451685025;
     };
 

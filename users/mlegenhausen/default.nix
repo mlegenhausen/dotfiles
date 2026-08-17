@@ -7,7 +7,7 @@ let
 in {
   imports = [ ../modules ];
 
-  fonts.packages = with pkgs; [ 
+  fonts.packages = with pkgs; [
     nerd-fonts.fira-code
     nerd-fonts.meslo-lg
   ];
@@ -25,32 +25,38 @@ in {
       language = { base = "en_US.UTF-8"; };
 
       packages = with pkgs; [
-        ast-grep
-        colima
+        brotli
         difftastic
+        esbuild
         eza
         fastly
         ffmpeg
         gh
         gnupg
+        go
         gobuster
         gron
-        imagemagick
         jdk11
         jq
+        ko
+        mgrep
         ncdu
-        neofetch
+        nil
+        nixd
         nmap
         nodejs
-        nodePackages.npm-check-updates
-        nodePackages.typescript
         okta-aws-cli
         parallel
         pdftk
         pinentry_mac
+        pnpm
+        ripgrep
+        rtk
         speedtest-cli
         subfinder
+        typescript
         vegeta
+        zstd
       ];
 
       sessionVariables = {
@@ -91,7 +97,7 @@ in {
 
         settings = {
           commit = { verbose = true; };
-          core = { editor = "code-insiders --wait"; };
+          core = { editor = "zed --wait"; };
           github = { user = "${username}"; };
           push = {
             autoSetupRemote = true;
@@ -115,7 +121,7 @@ in {
             name = "${fullname}";
           };
           ui = {
-            editor = "code-insiders --wait";
+            editor = "zed --wait";
             color = "auto";
           };
         };
@@ -157,7 +163,7 @@ in {
               pager = "delta --dark --paging=never";
             };
           };
-          gui = { 
+          gui = {
             showCommandLog = false;
             # sidePanelWidth = 0.3;
             showFileTree = false;
