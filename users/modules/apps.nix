@@ -13,7 +13,7 @@
 
     onActivation = {
       autoUpdate = true;
-      cleanup = "uninstall";
+      # cleanup = "uninstall";
       upgrade = true;
     };
 
@@ -48,6 +48,7 @@
       "monologue"
       "ngrok"
       "onyx"
+      "ollama-app"
       "rectangle"
       "signal"
       "stats"
@@ -57,7 +58,7 @@
       "utm"
       "visual-studio-code"
       "visual-studio-code@insiders"
-      "whatsapp@beta"
+      # "whatsapp@beta"
       "vlc"
       "zed"
       "zoom"
@@ -72,7 +73,5 @@
     #   # "RollerCoaster Tycoon Classic" = 1113736426;
       "WireGuard" = 1451685025;
     };
-
-    taps = [ "heroku/brew" "schappim/ocr" "withgraphite/tap" ];
   };
 }

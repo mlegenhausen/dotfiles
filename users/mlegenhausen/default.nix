@@ -46,6 +46,7 @@ in {
         nmap
         nodejs
         okta-aws-cli
+        opencode
         parallel
         pdftk
         pinentry_mac
