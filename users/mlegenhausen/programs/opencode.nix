@@ -1,11 +1,14 @@
-{ lib, ... }:
+{ lib, pkgs, ... }:
 
 {
   programs.opencode = {
     enable = true;
 
     settings = {
-      plugin = [ "@mohak34/opencode-notifier@0.2.8" ];
+      plugin = [
+        "@mohak34/opencode-notifier@0.2.8"
+        "${pkgs.rtk.src}/hooks/opencode/rtk.ts"
+      ];
 
       subagent_depth = 2;
 
