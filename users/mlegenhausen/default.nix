@@ -21,6 +21,8 @@ in {
   home-manager.useGlobalPkgs = true;
 
   home-manager.users."${username}" = { pkgs, ... }: {
+    imports = [ ./programs/opencode.nix ];
+
     home = {
       language = { base = "en_US.UTF-8"; };
 
@@ -46,7 +48,6 @@ in {
         nmap
         nodejs
         okta-aws-cli
-        opencode
         parallel
         pdftk
         pinentry_mac
