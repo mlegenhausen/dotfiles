@@ -59,16 +59,5 @@
     context = ./opencode/AGENTS.md;
 
     agents.review = ./opencode/agents/review.md;
-
-    web = {
-      enable = true;
-      environmentFile = "/Users/mlegenhausen/.config/opencode/web.env";
-      extraArgs = [
-        "--hostname"
-        "0.0.0.0"
-        "--port"
-        "4096"
-      ];
-    };
   };
 }
