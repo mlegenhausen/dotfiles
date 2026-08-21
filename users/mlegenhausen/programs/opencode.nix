@@ -5,6 +5,8 @@
     enable = true;
 
     settings = {
+      plugin = [ "@mohak34/opencode-notifier@0.2.8" ];
+
       subagent_depth = 2;
 
       agent = {
